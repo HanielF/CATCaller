@@ -2,8 +2,7 @@ import sys
 sys.path.append('..')
 import torch.nn as nn
 import torch
-from modules import PositionalEncoding, EncoderLayer
-
+from train.modules import PositionalEncoding, EncoderLayer
 
 
 class LiteTransformerEncoder(nn.Module):

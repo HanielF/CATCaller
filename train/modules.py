@@ -3,9 +3,9 @@ import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
 import math
-import constants as Constants
-from lightweight_convolution import LightweightConv
-from dynamic_convolution import DynamicConv
+import generate_dataset.constants as Constants
+from train.lightweight_convolution import LightweightConv
+from train.dynamic_convolution import DynamicConv
 
 
 class LabelSmoothingLoss(nn.Module):

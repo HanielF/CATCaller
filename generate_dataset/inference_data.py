@@ -14,6 +14,9 @@ import numpy as np
 from trim_raw import trim_and_segment_raw
 import constants
 
+import warnings
+warnings.filterwarnings("ignore",category=DeprecationWarning)
+
 
 def box(array, threshold):
     ori_l = len(array)

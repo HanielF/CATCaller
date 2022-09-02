@@ -1,0 +1,8 @@
+test_*
+tmp_data_dir
+fail_txts
+*npy
+*flag
+catcaller_decode_dic
+__pycache__
+*nohup*
